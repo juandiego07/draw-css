@@ -42,6 +42,7 @@ body {
   margin-left: .2em;
 }
 
+<<<<<<< HEAD
 .mouth {
   background-color: yellow;
   border: red solid 2px;
@@ -50,6 +51,16 @@ body {
   border-radius: 6em;
   margin-left: 3em;
   margin-right: 3em;
+=======
+.mouth{
+    position: absolute;
+    background-color: red;
+    top: 8em;
+    border: red solid 2px;
+    width: 6em;
+    height: 6em;
+    border-radius: 6em;
+>>>>>>> 9bac264 (Added red color mouth)
 }
 
 .oval {
