@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: darkgray;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.face{
+    display: flex;
+    justify-content: space-around;
+    background-color: yellow;
+    width: 15em;
+    height: 15em;
+    border-radius: 15em;
+    margin-top: 1em;
+}
+
+ .eyes-left{
+    width: 3.5em;
+    height: 3.5em;
+    background-color: black;
+    border-radius: 3em;
+    margin-top: 3em;
+}
+
+.eyes-right{
+    width: 3.5em;
+    height: 3.5em;
+    background-color: black;
+    border-radius: 3em;
+    margin-top: 3em;    
+}
+
+.mouth{
+    position: absolute;
+    background-color: yellow;
+    top: 8em;
+    border: red solid 2px;
+    width: 6em;
+    height: 6em;
+    border-radius: 6em;
+}
+
+/*
+.oval{
+    background-color: white;
+    width: 2.5em;
+    height: 5em;
+    border-radius: 5em;
+    margin: 1em 0em 0em 1.5em;
+} */
